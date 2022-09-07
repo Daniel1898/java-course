@@ -18,6 +18,8 @@ public class HW5 {
             System.out.println("Слово \"привет\" встречается единожды");
         } else if (privetCount > 1){
             System.out.println("Слово \"привет\" встречается больше 1 раза");
+        } else {
+            System.out.println("Слово \"привет\" не встречается");
         }
     }
 }
